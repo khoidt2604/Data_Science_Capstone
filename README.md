@@ -1,20 +1,22 @@
-# 🎯 Model Comparison for Student Dropout Prediction
+## 🚀 SpaceX Falcon 9 First Stage Landing Prediction
 
-This repository contains Python code and analysis for comparing multiple machine learning models to predict student dropout. The goal is to identify the most effective model using validation and test accuracy as key metrics.
+This repository contains a complete machine learning pipeline for predicting the successful landing of the first stage of SpaceX's Falcon 9 rockets. By analyzing historical launch data, the project aims to build a classification model capable of forecasting landing outcomes based on mission parameters.
 
 ---
 
 ## 📌 Introduction
 
-This project evaluates different classification models for predicting student dropout using a dataset that includes demographic and academic attributes. By training and validating multiple models, the project identifies the most reliable classifier for accurate and generalisable predictions.
+SpaceX significantly reduces launch costs by reusing the first stage of its Falcon 9 rockets. Predicting whether a first stage will land successfully is crucial for understanding mission risk and estimating launch costs.
 
-The primary aim is to assist educators and institutions in making data-driven decisions to support students at risk of dropping out.
+This project uses real-world launch data—including features such as orbit type, payload mass, flight number, and launch site—to train a supervised machine learning model. The goal is to classify whether a launch's first stage will successfully land (`1`) or not (`0`), based on its input features.
 
 ---
 
 ## 💡 Motivation
 
-With increasing concerns around student attrition in educational institutions, developing predictive systems can be an effective early intervention strategy. This project explores and compares the performance of several supervised learning models to determine the most suitable algorithm for identifying at-risk students.
+Each Falcon 9 launch represents millions of dollars in investment. Accurate prediction of first-stage recovery outcomes allows companies, analysts, and engineers to make informed decisions about mission planning, risk assessment, and reusability potential.
+
+By applying machine learning techniques to SpaceX’s launch records, this project demonstrates how data science can support space innovation and operational efficiency. It also serves as an educational example of building a real-world classification pipeline from EDA to model evaluation.
 
 ---
 
