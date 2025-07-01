@@ -47,6 +47,22 @@ The **Decision Tree** classifier performed best, with both the highest validatio
 
 ---
 
+### 🔹 3. Success Rate by Orbit Type
+
+This chart shows the success rate of missions by orbit type.  
+Orbits such as GEO, HEO, and SSO achieved a **100% success rate**, while others like GTO and ISS have lower reliability.
+
+![Success Rate by Orbit Type](Success_rate_orbit.png)
+
+---
+
+### 🔹 4. Flight Number vs Orbit Type (Class Outcome)
+
+The scatter plot visualises flight numbers across different orbit types, color-coded by class (success or failure).  
+This helps identify trends or irregularities in outcomes based on flight order and orbit type.
+
+![Flight Number vs Orbit](Flight_number_orbit.png)
+
 ## 🤖 Models Used
 
 - Logistic Regression  
