@@ -76,23 +76,28 @@ Each model was trained using cross-validation and evaluated using accuracy metri
 
 ---
 
-## 📂 Files
+## 📁 Files
 
-- `model_comparison.ipynb` — Jupyter Notebook with all code for preprocessing, model training, validation, and visualisation.  
-- `bar_chart.png` — Visualisation comparing validation and test accuracy across models.  
+- `landing_prediction.ipynb` — Jupyter Notebook containing all code for data preprocessing, exploratory data analysis, model training, evaluation, and visualisation.
+- `Success_rate_orbit.png` — Visualisation showing the first stage landing success rate across different orbit types.
+- `Flight_number_orbit.png` — Visualisation illustrating the relationship between flight number and orbit category.
 - `README.md` — Project summary and usage instructions.
 
 ---
 
 ## ▶️ How to Run the Code
 
-1. Open the `model_comparison.ipynb` file using Jupyter Notebook or JupyterLab.
+1. Open the `landing_prediction.ipynb` file using **Jupyter Notebook** or **JupyterLab**.
+
 2. Run all cells in the notebook to:
-   - Preprocess the dataset
-   - Train and validate each model
-   - Compare accuracy results
-   - Display summary tables and charts
-3. Make sure you have the required packages installed. You can install them using:
+
+   - Preprocess and clean the dataset  
+   - Perform exploratory data analysis (EDA)  
+   - Train and evaluate classification models  
+   - Visualise success rates by orbit and flight number  
+   - Output model performance metrics  
+
+3. Make sure the required packages are installed. You can install them using:
 
    ```bash
-   pip install pandas numpy matplotlib scikit-learn
+   pip install pandas numpy matplotlib seaborn scikit-learn
