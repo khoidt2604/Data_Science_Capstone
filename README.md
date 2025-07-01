@@ -24,7 +24,13 @@ With increasing concerns around student attrition in educational institutions, d
 
 This bar chart displays both validation and test accuracy for four classification models:
 
-![Accuracy Comparison Bar Chart](bar_chart.png)
+![Model Accuracy Comparison](Comparison_model_accuracy.png)
+
+> The models included in this comparison are:
+- Logistic Regression
+- Support Vector Machine (SVM)
+- Decision Tree
+- K-Nearest Neighbors (KNN)
 
 > As seen above, the **Decision Tree** model achieved the highest accuracy on both validation and test sets, suggesting better generalisability and predictive power.
 
